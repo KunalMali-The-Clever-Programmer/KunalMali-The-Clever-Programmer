@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: Platane/snk@v2
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: "KunalMali-The-Clever-Programmer"
           outputs: dist/snake.svg
       - uses: actions/upload-artifact@v3
         with:
