@@ -50,7 +50,5 @@
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="37" alt="linkedin logo"  />
 </div>
 <p align="center">
-  <img src=" https://raw.githubusercontent.com/KunalMali-The-Clever-Programmer/KunalMali-The-Clever-Programmer/output/snake.svg" alt="Snake animation" />
- 
-
+  <img src="https://raw.githubusercontent.com/KunalMali-The-Clever-Programmer/KunalMali-The-Clever-Programmer/output/snake.svg" alt="Snake animation" />
 </p>
