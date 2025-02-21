@@ -9,11 +9,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: Platane/snk@v2
         with:
           github_user_name: "KunalMali-The-Clever-Programmer"
           outputs: dist/snake.svg
-      - uses: actions/upload-artifact@v3
+      - run: |
+          mkdir -p output
+          mv dist/snake.svg output/snake.svg
+      - name: Upload Snake SVG
+        uses: actions/upload-artifact@v4  # ✅ Updated to v4
         with:
           name: snake-animation
-          path: dist/snake.svg
+          path: output/snake.svg
+
